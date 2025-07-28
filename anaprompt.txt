@@ -1,0 +1,197 @@
+You are a full-stack engineer assistant. Build a complete full-stack web application named **HabitGrove**, a sustainability habit tracking platform.
+
+The stack is:
+- **Backend**: Python with FastAPI
+- **Frontend**: Node.js using Next.js
+- **Database**: MongoDB Atlas (connected via environment variable `MONGO_URL`)
+- **Authentication**: JWT
+- **Dev environment**: Cursor
+- **Test framework**: Pytest for backend, automated testing
+- **Optional UI Libraries**: TailwindCSS on frontend
+
+---
+
+## 🌿 App Summary
+
+HabitGrove allows users to complete environmentally beneficial tasks (daily, weekly, monthly, yearly), join public or private groups (school, university, company, municipality, NGO, etc.), and track both **individual** and **collective** impact.
+
+---
+
+## 📦 Backend Structure – FastAPI + MongoDB
+
+### Models (MongoDB collections):
+1. **users**
+```json
+{
+  "_id": ObjectId,
+  "name": "string",
+  "email": "string",
+  "password_hash": "string",
+  "group_id": ObjectId,
+  "points": int,
+  "created_at": datetime
+}
+groups
+
+json
+Kopyala
+Düzenle
+{
+  "_id": ObjectId,
+  "name": "string",
+  "type": "university | school | municipality | ngo | company",
+  "members": [user_id],
+  "total_points": int,
+  "created_at": datetime
+}
+tasks
+
+json
+Kopyala
+Düzenle
+{
+  "_id": ObjectId,
+  "title": "string",
+  "description": "string",
+  "type": "daily | weekly | monthly | yearly",
+  "category": "recycling | water | energy | transport | consumption",
+  "difficulty": "easy | medium | hard",
+  "points": int,
+  "isActive": bool
+}
+task_completions
+
+json
+Kopyala
+Düzenle
+{
+  "_id": ObjectId,
+  "task_id": ObjectId,
+  "user_id": ObjectId,
+  "group_id": ObjectId,
+  "completed_at": datetime,
+  "points_earned": int
+}
+🧪 API Endpoints (FastAPI)
+Auth
+POST /auth/register → Register user
+
+POST /auth/login → Login, return JWT token
+
+GET /auth/me → Authenticated user info
+
+Users
+GET /users/{id} → Get user profile
+
+PATCH /users/{id} → Update user info (name, group_id)
+
+Tasks
+GET /tasks → List tasks (filter: type, category, difficulty)
+
+GET /tasks/{id} → Task detail
+
+POST /tasks → Create task (admin only)
+
+Task Completion
+POST /tasks/complete → Complete task (body: user_id, task_id)
+
+GET /tasks/user/{user_id} → List user's completed tasks
+
+GET /tasks/group/{group_id} → List all completions by group
+
+Groups
+POST /groups → Create group
+
+GET /groups/{id} → Group detail
+
+POST /groups/join → Join group (user_id + group_id)
+
+🧪 Backend Tasks:
+Use Pydantic models and input validation
+
+Implement JWT auth with middleware
+
+Add CORS middleware for frontend access
+
+Use Motor (Async MongoDB driver) for database access
+
+Write pytest tests for:
+
+Auth flow
+
+Task filtering logic
+
+Task completion logic
+
+Group progress calculations
+
+🔧 Seed Script
+Create seed.py to populate the database with:
+
+5 users
+
+3 groups (e.g., Gaziantep University, Şahinbey Municipality, Ekoloji Derneği)
+
+10 daily, 10 weekly, 5 monthly, 2 yearly tasks (realistic examples)
+
+20 random completions
+
+🌐 Frontend – Node.js + Next.js
+Pages:
+/login – Login with JWT
+
+/register – New user signup
+
+/tasks – Filterable task list (type, category, difficulty)
+
+/tasks/[id] – Task detail and completion button
+
+/my-tasks – List user's completed tasks
+
+/group – Show group name, total points, top contributors
+
+Components:
+TaskCard.jsx – Task preview card
+
+FilterBar.jsx – Dropdowns for type/category
+
+UserStats.jsx – Points earned, streaks
+
+GroupStats.jsx – Group task count, members, map slot
+
+Features:
+Use axios to consume backend API
+
+Store JWT token in localStorage
+
+TailwindCSS for styling
+
+Display dynamic data from MongoDB
+
+Bonus: use Leaflet.js to show group distribution on map
+
+📊 Bonus Features
+Show individual progress bars for each user
+
+Show total completed tasks by group with leaderboard
+
+Add admin route /admin/tasks for new task creation
+
+Add "task of the day" suggestion box
+
+✅ Development Order
+Implement backend models, routes, and JWT auth
+
+Test backend with pytest
+
+Run seed script to populate database
+
+Create frontend pages and connect APIs
+
+Deploy backend (Render or Railway) and frontend (Vercel)
+
+Connect to MongoDB Atlas (store credentials in .env)
+
+Bonus: group leaderboard map view
+
+Start by building the FastAPI backend with MongoDB models and test coverage. Then scaffold the Next.js frontend and connect endpoints. Use agents to test, debug, and generate mock data where needed. Project name: HabitGrove.

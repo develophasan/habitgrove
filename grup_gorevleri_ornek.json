@@ -1,0 +1,84 @@
+{
+  "tasks": [
+    {
+      "title": "Grup Toplantısına Katıl",
+      "description": "Haftalık grup toplantısına katılarak grup aktivitelerini planla ve diğer üyelerle fikir alışverişinde bulun.",
+      "type": "weekly",
+      "category": "group",
+      "difficulty": "medium",
+      "points": 75
+    },
+    {
+      "title": "Grup Etkinliği Organize Et",
+      "description": "Grup üyeleri için çevre temalı bir etkinlik organize et ve katılımı teşvik et.",
+      "type": "monthly",
+      "category": "group",
+      "difficulty": "hard",
+      "points": 150
+    },
+    {
+      "title": "Yeni Üye Tanıtımı",
+      "description": "Yeni katılan grup üyelerine grubun misyonunu ve hedeflerini anlat.",
+      "type": "one_time",
+      "category": "group",
+      "difficulty": "easy",
+      "points": 50
+    },
+    {
+      "title": "Grup Başarılarını Paylaş",
+      "description": "Sosyal medyada grubun başarılarını ve etkinliklerini paylaşarak grubun görünürlüğünü artır.",
+      "type": "weekly",
+      "category": "group",
+      "difficulty": "medium",
+      "points": 60
+    },
+    {
+      "title": "Grup İstatistiklerini Takip Et",
+      "description": "Grup üyelerinin görev tamamlama oranlarını ve puanlarını takip et, rapor hazırla.",
+      "type": "monthly",
+      "category": "group",
+      "difficulty": "medium",
+      "points": 80
+    },
+    {
+      "title": "Grup Motivasyon Mesajı",
+      "description": "Grup üyelerine haftalık motivasyon mesajı gönder ve hedefleri hatırlat.",
+      "type": "weekly",
+      "category": "group",
+      "difficulty": "easy",
+      "points": 30
+    },
+    {
+      "title": "Grup Eğitimi Düzenle",
+      "description": "Grup üyeleri için sürdürülebilirlik konusunda eğitim veya workshop düzenle.",
+      "type": "one_time",
+      "category": "group",
+      "difficulty": "hard",
+      "points": 200
+    },
+    {
+      "title": "Grup Hedeflerini Belirle",
+      "description": "Aylık grup hedeflerini belirle ve üyelerle paylaş.",
+      "type": "monthly",
+      "category": "group",
+      "difficulty": "medium",
+      "points": 70
+    },
+    {
+      "title": "Grup İletişimini Güçlendir",
+      "description": "Grup üyeleri arasında iletişimi güçlendirmek için sohbet grubu veya forum oluştur.",
+      "type": "one_time",
+      "category": "group",
+      "difficulty": "medium",
+      "points": 90
+    },
+    {
+      "title": "Grup Başarı Hikayesi Yaz",
+      "description": "Grup başarılarını ve etkisini anlatan bir hikaye yaz ve paylaş.",
+      "type": "monthly",
+      "category": "group",
+      "difficulty": "medium",
+      "points": 100
+    }
+  ]
+} 

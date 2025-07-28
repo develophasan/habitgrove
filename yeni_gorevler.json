@@ -1,0 +1,324 @@
+{
+  "tasks": [
+    {
+      "title": "Kahve termosu kullan",
+      "description": "Tek kullanımlık bardak yerine termos taşı.",
+      "type": "daily",
+      "category": "environment",
+      "difficulty": "medium",
+      "points": 136
+    },
+    {
+      "title": "Kısa duş al",
+      "description": "Duş süresini 5 dakikanın altında tut.",
+      "type": "daily",
+      "category": "environment",
+      "difficulty": "medium",
+      "points": 65
+    },
+    {
+      "title": "Güne doğal ışıkla başla",
+      "description": "Sabah ilk saatlerde ışıkları açmadan güneş ışığı kullan.",
+      "type": "daily",
+      "category": "environment",
+      "difficulty": "medium",
+      "points": 132
+    },
+    {
+      "title": "Çöplerini ayır",
+      "description": "Organik ve geri dönüştürülebilir atıkları ayır.",
+      "type": "daily",
+      "category": "environment",
+      "difficulty": "hard",
+      "points": 77
+    },
+    {
+      "title": "Toplu taşıma öner",
+      "description": "Bir arkadaşına araba yerine toplu taşıma kullanmasını öner.",
+      "type": "daily",
+      "category": "environment",
+      "difficulty": "hard",
+      "points": 98
+    },
+    {
+      "title": "Kâğıt israfını önle",
+      "description": "Bugün hiçbir gereksiz kağıt kullanma.",
+      "type": "daily",
+      "category": "health",
+      "difficulty": "easy",
+      "points": 32
+    },
+    {
+      "title": "Yeniden kullan",
+      "description": "Bugün en az 1 ürünü yeniden değerlendir.",
+      "type": "daily",
+      "category": "environment",
+      "difficulty": "easy",
+      "points": 106
+    },
+    {
+      "title": "Yürüyerek alışveriş yap",
+      "description": "Market alışverişini yürüyerek yap.",
+      "type": "daily",
+      "category": "health",
+      "difficulty": "medium",
+      "points": 86
+    },
+    {
+      "title": "Bitki sula",
+      "description": "Evinin veya okulunun bitkilerini düzenli olarak sula.",
+      "type": "daily",
+      "category": "environment",
+      "difficulty": "medium",
+      "points": 57
+    },
+    {
+      "title": "Günlük tüketim planı yap",
+      "description": "Gün içinde yiyecek israfı yapmamak için plan yap.",
+      "type": "daily",
+      "category": "other",
+      "difficulty": "medium",
+      "points": 135
+    },
+    {
+      "title": "Kıyafet bağışı yap",
+      "description": "Kullanmadığın kıyafetleri bağışla.",
+      "type": "weekly",
+      "category": "education",
+      "difficulty": "medium",
+      "points": 138
+    },
+    {
+      "title": "Geri dönüşüm videosu paylaş",
+      "description": "Sosyal medyada bilinçlendirici içerik paylaş.",
+      "type": "weekly",
+      "category": "environment",
+      "difficulty": "medium",
+      "points": 148
+    },
+    {
+      "title": "Sıfır atık günü düzenle",
+      "description": "Bir gün boyunca hiçbir atık oluşturma.",
+      "type": "weekly",
+      "category": "environment",
+      "difficulty": "easy",
+      "points": 33
+    },
+    {
+      "title": "Arkadaşını dahil et",
+      "description": "En az 1 kişiyi sürdürülebilir görev yapmaya teşvik et.",
+      "type": "weekly",
+      "category": "other",
+      "difficulty": "medium",
+      "points": 139
+    },
+    {
+      "title": "Enerji günlüğü tut",
+      "description": "Bir hafta boyunca enerji kullanımını yaz.",
+      "type": "weekly",
+      "category": "environment",
+      "difficulty": "easy",
+      "points": 24
+    },
+    {
+      "title": "Toplu taşıma verisi topla",
+      "description": "Haftalık karbon tasarrufunu hesapla.",
+      "type": "weekly",
+      "category": "environment",
+      "difficulty": "hard",
+      "points": 96
+    },
+    {
+      "title": "Evde kompost yapmayı öğren",
+      "description": "Organik atıklarını kompostlamayı araştır ve başla.",
+      "type": "weekly",
+      "category": "education",
+      "difficulty": "easy",
+      "points": 15
+    },
+    {
+      "title": "Cam kavanoz kullan",
+      "description": "Market alışverişinde ambalaj yerine cam kavanoz tercih et.",
+      "type": "weekly",
+      "category": "other",
+      "difficulty": "hard",
+      "points": 21
+    },
+    {
+      "title": "Sosyal medya detoksu",
+      "description": "1 gün boyunca dijital tüketimini sıfırla.",
+      "type": "weekly",
+      "category": "environment",
+      "difficulty": "easy",
+      "points": 111
+    },
+    {
+      "title": "Doğal sabun kullan",
+      "description": "Kimyasal yerine doğal içerikli sabun/temizlik ürünü kullan.",
+      "type": "weekly",
+      "category": "environment",
+      "difficulty": "hard",
+      "points": 44
+    },
+    {
+      "title": "Su faturası karşılaştır",
+      "description": "Geçen ayla bu ayki su tüketimini kıyasla.",
+      "type": "monthly",
+      "category": "environment",
+      "difficulty": "medium",
+      "points": 100
+    },
+    {
+      "title": "Kampanyaya katıl",
+      "description": "Doğa temalı bir bağış kampanyasına katıl.",
+      "type": "monthly",
+      "category": "environment",
+      "difficulty": "hard",
+      "points": 144
+    },
+    {
+      "title": "Elektrik tasarruf raporu hazırla",
+      "description": "Aylık elektrik kullanımını analiz et.",
+      "type": "monthly",
+      "category": "environment",
+      "difficulty": "hard",
+      "points": 34
+    },
+    {
+      "title": "Kitap oku ve paylaş",
+      "description": "Doğa veya çevre üzerine bir kitap oku ve özetle paylaş.",
+      "type": "monthly",
+      "category": "environment",
+      "difficulty": "easy",
+      "points": 131
+    },
+    {
+      "title": "Kendi ürününü yap",
+      "description": "Ambalajlı almak yerine evde temizlik ürünü üret.",
+      "type": "monthly",
+      "category": "environment",
+      "difficulty": "hard",
+      "points": 140
+    },
+    {
+      "title": "Bisiklet rotası oluştur",
+      "description": "Aylık bisiklet ulaşım planı yap.",
+      "type": "monthly",
+      "category": "other",
+      "difficulty": "easy",
+      "points": 118
+    },
+    {
+      "title": "Bez peçete kullan",
+      "description": "Ay boyunca kağıt peçete yerine kumaş kullan.",
+      "type": "monthly",
+      "category": "environment",
+      "difficulty": "hard",
+      "points": 115
+    },
+    {
+      "title": "Sıfır atık rehberi yaz",
+      "description": "Kendi ipuçlarını içeren bir belge hazırla.",
+      "type": "monthly",
+      "category": "other",
+      "difficulty": "medium",
+      "points": 10
+    },
+    {
+      "title": "Yemek israfını ölç",
+      "description": "Bir ay boyunca ne kadar yiyecek israf ettiğini takip et.",
+      "type": "monthly",
+      "category": "environment",
+      "difficulty": "easy",
+      "points": 72
+    },
+    {
+      "title": "Takas etkinliği düzenle",
+      "description": "Mahallede kıyafet/kitap takası düzenle.",
+      "type": "monthly",
+      "category": "education",
+      "difficulty": "easy",
+      "points": 59
+    },
+    {
+      "title": "Permakültür eğitimi al",
+      "description": "Sürdürülebilir tarım üzerine online veya fiziksel bir kursa katıl.",
+      "type": "one_time",
+      "category": "environment",
+      "difficulty": "easy",
+      "points": 12
+    },
+    {
+      "title": "Yaşam alanı dönüşümü",
+      "description": "Evinin bir köşesini tamamen çevre dostu hale getir.",
+      "type": "one_time",
+      "category": "environment",
+      "difficulty": "hard",
+      "points": 104
+    },
+    {
+      "title": "Gönüllü ol",
+      "description": "Yıl boyunca bir doğa derneğinde aktif görev al.",
+      "type": "one_time",
+      "category": "environment",
+      "difficulty": "hard",
+      "points": 138
+    },
+    {
+      "title": "Sürdürülebilirlik sunumu yap",
+      "description": "Okulda veya iş yerinde sunum yap.",
+      "type": "one_time",
+      "category": "environment",
+      "difficulty": "medium",
+      "points": 34
+    },
+    {
+      "title": "Karbon ayak izi azaltma hedefi belirle",
+      "description": "Yıllık olarak ölç ve takip et.",
+      "type": "one_time",
+      "category": "environment",
+      "difficulty": "hard",
+      "points": 56
+    },
+    {
+      "title": "Elektrikli scooter kullanmaya başla",
+      "description": "Fosil yakıt kullanımını azalt.",
+      "type": "one_time",
+      "category": "other",
+      "difficulty": "medium",
+      "points": 37
+    },
+    {
+      "title": "Doğa yürüyüşü organize et",
+      "description": "Bir grup doğa yürüyüşü düzenle.",
+      "type": "one_time",
+      "category": "environment",
+      "difficulty": "medium",
+      "points": 12
+    },
+    {
+      "title": "Çevre temalı sergi aç",
+      "description": "Sanat veya fotoğrafla sürdürülebilirlik mesajı ver.",
+      "type": "one_time",
+      "category": "environment",
+      "difficulty": "medium",
+      "points": 65
+    },
+    {
+      "title": "Toplu ekim faaliyeti düzenle",
+      "description": "Ağaç dikimi veya bahar temizliği etkinliği yap.",
+      "type": "one_time",
+      "category": "environment",
+      "difficulty": "medium",
+      "points": 86
+    },
+    {
+      "title": "Yıllık sürdürülebilirlik raporu hazırla",
+      "description": "Kendi alışkanlıklarını ölç ve analiz et.",
+      "type": "one_time",
+      "category": "environment",
+      "difficulty": "hard",
+      "points": 25
+    }
+  ]
+}
